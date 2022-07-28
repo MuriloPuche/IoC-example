@@ -9,6 +9,6 @@ public class Pedido {
     }
     private EnviarEmails enviar = EnviarEmails.obterDadosEmail();
     public void gravar() {
-        this.enviar.retornar("pedido criado!");
+        this.enviar.retornar("Pedido criado!");
     }
 }
